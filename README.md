@@ -35,7 +35,7 @@ cd css2HsClassName
 nix-build
 ```
 and then the result/bin -dir is made up and mkSeveral.sh can find the 
-program.
+program. (Some of its outputs can be found at res-directory.)
 
 You can also 
 ```
