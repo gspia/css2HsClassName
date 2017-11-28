@@ -952,6 +952,9 @@ bsDLgTable = ClassName "d-lg-table"
 bsDLgTableCell :: ClassName
 bsDLgTableCell = ClassName "d-lg-table-cell"
 
+bsDLgTableRow :: ClassName
+bsDLgTableRow = ClassName "d-lg-table-row"
+
 bsDMdBlock :: ClassName
 bsDMdBlock = ClassName "d-md-block"
 
@@ -975,6 +978,9 @@ bsDMdTable = ClassName "d-md-table"
 
 bsDMdTableCell :: ClassName
 bsDMdTableCell = ClassName "d-md-table-cell"
+
+bsDMdTableRow :: ClassName
+bsDMdTableRow = ClassName "d-md-table-row"
 
 bsDNone :: ClassName
 bsDNone = ClassName "d-none"
@@ -1015,11 +1021,17 @@ bsDSmTable = ClassName "d-sm-table"
 bsDSmTableCell :: ClassName
 bsDSmTableCell = ClassName "d-sm-table-cell"
 
+bsDSmTableRow :: ClassName
+bsDSmTableRow = ClassName "d-sm-table-row"
+
 bsDTable :: ClassName
 bsDTable = ClassName "d-table"
 
 bsDTableCell :: ClassName
 bsDTableCell = ClassName "d-table-cell"
+
+bsDTableRow :: ClassName
+bsDTableRow = ClassName "d-table-row"
 
 bsDXlBlock :: ClassName
 bsDXlBlock = ClassName "d-xl-block"
@@ -1044,6 +1056,9 @@ bsDXlTable = ClassName "d-xl-table"
 
 bsDXlTableCell :: ClassName
 bsDXlTableCell = ClassName "d-xl-table-cell"
+
+bsDXlTableRow :: ClassName
+bsDXlTableRow = ClassName "d-xl-table-row"
 
 bsDisabled :: ClassName
 bsDisabled = ClassName "disabled"
@@ -1282,6 +1297,9 @@ bsFontItalic = ClassName "font-italic"
 bsFontWeightBold :: ClassName
 bsFontWeightBold = ClassName "font-weight-bold"
 
+bsFontWeightLight :: ClassName
+bsFontWeightLight = ClassName "font-weight-light"
+
 bsFontWeightNormal :: ClassName
 bsFontWeightNormal = ClassName "font-weight-normal"
 
@@ -1305,9 +1323,6 @@ bsFormControlFeedback = ClassName "form-control-feedback"
 
 bsFormControlFile :: ClassName
 bsFormControlFile = ClassName "form-control-file"
-
-bsFormControlLabel :: ClassName
-bsFormControlLabel = ClassName "form-control-label"
 
 bsFormControlLg :: ClassName
 bsFormControlLg = ClassName "form-control-lg"
@@ -2386,6 +2401,183 @@ bsNavbarTogglerIcon = ClassName "navbar-toggler-icon"
 bsNoGutters :: ClassName
 bsNoGutters = ClassName "no-gutters"
 
+bsOffset1 :: ClassName
+bsOffset1 = ClassName "offset-1"
+
+bsOffset10 :: ClassName
+bsOffset10 = ClassName "offset-10"
+
+bsOffset11 :: ClassName
+bsOffset11 = ClassName "offset-11"
+
+bsOffset2 :: ClassName
+bsOffset2 = ClassName "offset-2"
+
+bsOffset3 :: ClassName
+bsOffset3 = ClassName "offset-3"
+
+bsOffset4 :: ClassName
+bsOffset4 = ClassName "offset-4"
+
+bsOffset5 :: ClassName
+bsOffset5 = ClassName "offset-5"
+
+bsOffset6 :: ClassName
+bsOffset6 = ClassName "offset-6"
+
+bsOffset7 :: ClassName
+bsOffset7 = ClassName "offset-7"
+
+bsOffset8 :: ClassName
+bsOffset8 = ClassName "offset-8"
+
+bsOffset9 :: ClassName
+bsOffset9 = ClassName "offset-9"
+
+bsOffsetLg0 :: ClassName
+bsOffsetLg0 = ClassName "offset-lg-0"
+
+bsOffsetLg1 :: ClassName
+bsOffsetLg1 = ClassName "offset-lg-1"
+
+bsOffsetLg10 :: ClassName
+bsOffsetLg10 = ClassName "offset-lg-10"
+
+bsOffsetLg11 :: ClassName
+bsOffsetLg11 = ClassName "offset-lg-11"
+
+bsOffsetLg2 :: ClassName
+bsOffsetLg2 = ClassName "offset-lg-2"
+
+bsOffsetLg3 :: ClassName
+bsOffsetLg3 = ClassName "offset-lg-3"
+
+bsOffsetLg4 :: ClassName
+bsOffsetLg4 = ClassName "offset-lg-4"
+
+bsOffsetLg5 :: ClassName
+bsOffsetLg5 = ClassName "offset-lg-5"
+
+bsOffsetLg6 :: ClassName
+bsOffsetLg6 = ClassName "offset-lg-6"
+
+bsOffsetLg7 :: ClassName
+bsOffsetLg7 = ClassName "offset-lg-7"
+
+bsOffsetLg8 :: ClassName
+bsOffsetLg8 = ClassName "offset-lg-8"
+
+bsOffsetLg9 :: ClassName
+bsOffsetLg9 = ClassName "offset-lg-9"
+
+bsOffsetMd0 :: ClassName
+bsOffsetMd0 = ClassName "offset-md-0"
+
+bsOffsetMd1 :: ClassName
+bsOffsetMd1 = ClassName "offset-md-1"
+
+bsOffsetMd10 :: ClassName
+bsOffsetMd10 = ClassName "offset-md-10"
+
+bsOffsetMd11 :: ClassName
+bsOffsetMd11 = ClassName "offset-md-11"
+
+bsOffsetMd2 :: ClassName
+bsOffsetMd2 = ClassName "offset-md-2"
+
+bsOffsetMd3 :: ClassName
+bsOffsetMd3 = ClassName "offset-md-3"
+
+bsOffsetMd4 :: ClassName
+bsOffsetMd4 = ClassName "offset-md-4"
+
+bsOffsetMd5 :: ClassName
+bsOffsetMd5 = ClassName "offset-md-5"
+
+bsOffsetMd6 :: ClassName
+bsOffsetMd6 = ClassName "offset-md-6"
+
+bsOffsetMd7 :: ClassName
+bsOffsetMd7 = ClassName "offset-md-7"
+
+bsOffsetMd8 :: ClassName
+bsOffsetMd8 = ClassName "offset-md-8"
+
+bsOffsetMd9 :: ClassName
+bsOffsetMd9 = ClassName "offset-md-9"
+
+bsOffsetSm0 :: ClassName
+bsOffsetSm0 = ClassName "offset-sm-0"
+
+bsOffsetSm1 :: ClassName
+bsOffsetSm1 = ClassName "offset-sm-1"
+
+bsOffsetSm10 :: ClassName
+bsOffsetSm10 = ClassName "offset-sm-10"
+
+bsOffsetSm11 :: ClassName
+bsOffsetSm11 = ClassName "offset-sm-11"
+
+bsOffsetSm2 :: ClassName
+bsOffsetSm2 = ClassName "offset-sm-2"
+
+bsOffsetSm3 :: ClassName
+bsOffsetSm3 = ClassName "offset-sm-3"
+
+bsOffsetSm4 :: ClassName
+bsOffsetSm4 = ClassName "offset-sm-4"
+
+bsOffsetSm5 :: ClassName
+bsOffsetSm5 = ClassName "offset-sm-5"
+
+bsOffsetSm6 :: ClassName
+bsOffsetSm6 = ClassName "offset-sm-6"
+
+bsOffsetSm7 :: ClassName
+bsOffsetSm7 = ClassName "offset-sm-7"
+
+bsOffsetSm8 :: ClassName
+bsOffsetSm8 = ClassName "offset-sm-8"
+
+bsOffsetSm9 :: ClassName
+bsOffsetSm9 = ClassName "offset-sm-9"
+
+bsOffsetXl0 :: ClassName
+bsOffsetXl0 = ClassName "offset-xl-0"
+
+bsOffsetXl1 :: ClassName
+bsOffsetXl1 = ClassName "offset-xl-1"
+
+bsOffsetXl10 :: ClassName
+bsOffsetXl10 = ClassName "offset-xl-10"
+
+bsOffsetXl11 :: ClassName
+bsOffsetXl11 = ClassName "offset-xl-11"
+
+bsOffsetXl2 :: ClassName
+bsOffsetXl2 = ClassName "offset-xl-2"
+
+bsOffsetXl3 :: ClassName
+bsOffsetXl3 = ClassName "offset-xl-3"
+
+bsOffsetXl4 :: ClassName
+bsOffsetXl4 = ClassName "offset-xl-4"
+
+bsOffsetXl5 :: ClassName
+bsOffsetXl5 = ClassName "offset-xl-5"
+
+bsOffsetXl6 :: ClassName
+bsOffsetXl6 = ClassName "offset-xl-6"
+
+bsOffsetXl7 :: ClassName
+bsOffsetXl7 = ClassName "offset-xl-7"
+
+bsOffsetXl8 :: ClassName
+bsOffsetXl8 = ClassName "offset-xl-8"
+
+bsOffsetXl9 :: ClassName
+bsOffsetXl9 = ClassName "offset-xl-9"
+
 bsOrder1 :: ClassName
 bsOrder1 = ClassName "order-1"
 
@@ -2421,6 +2613,9 @@ bsOrder8 = ClassName "order-8"
 
 bsOrder9 :: ClassName
 bsOrder9 = ClassName "order-9"
+
+bsOrderFirst :: ClassName
+bsOrderFirst = ClassName "order-first"
 
 bsOrderLg1 :: ClassName
 bsOrderLg1 = ClassName "order-lg-1"
@@ -2458,6 +2653,9 @@ bsOrderLg8 = ClassName "order-lg-8"
 bsOrderLg9 :: ClassName
 bsOrderLg9 = ClassName "order-lg-9"
 
+bsOrderLgFirst :: ClassName
+bsOrderLgFirst = ClassName "order-lg-first"
+
 bsOrderMd1 :: ClassName
 bsOrderMd1 = ClassName "order-md-1"
 
@@ -2493,6 +2691,9 @@ bsOrderMd8 = ClassName "order-md-8"
 
 bsOrderMd9 :: ClassName
 bsOrderMd9 = ClassName "order-md-9"
+
+bsOrderMdFirst :: ClassName
+bsOrderMdFirst = ClassName "order-md-first"
 
 bsOrderSm1 :: ClassName
 bsOrderSm1 = ClassName "order-sm-1"
@@ -2530,6 +2731,9 @@ bsOrderSm8 = ClassName "order-sm-8"
 bsOrderSm9 :: ClassName
 bsOrderSm9 = ClassName "order-sm-9"
 
+bsOrderSmFirst :: ClassName
+bsOrderSmFirst = ClassName "order-sm-first"
+
 bsOrderXl1 :: ClassName
 bsOrderXl1 = ClassName "order-xl-1"
 
@@ -2565,6 +2769,9 @@ bsOrderXl8 = ClassName "order-xl-8"
 
 bsOrderXl9 :: ClassName
 bsOrderXl9 = ClassName "order-xl-9"
+
+bsOrderXlFirst :: ClassName
+bsOrderXlFirst = ClassName "order-xl-first"
 
 bsP0 :: ClassName
 bsP0 = ClassName "p-0"
@@ -2859,6 +3066,21 @@ bsPopoverBody = ClassName "popover-body"
 
 bsPopoverHeader :: ClassName
 bsPopoverHeader = ClassName "popover-header"
+
+bsPositionAbsolute :: ClassName
+bsPositionAbsolute = ClassName "position-absolute"
+
+bsPositionFixed :: ClassName
+bsPositionFixed = ClassName "position-fixed"
+
+bsPositionRelative :: ClassName
+bsPositionRelative = ClassName "position-relative"
+
+bsPositionStatic :: ClassName
+bsPositionStatic = ClassName "position-static"
+
+bsPositionSticky :: ClassName
+bsPositionSticky = ClassName "position-sticky"
 
 bsPr0 :: ClassName
 bsPr0 = ClassName "pr-0"
@@ -3301,9 +3523,6 @@ bsTableHover = ClassName "table-hover"
 bsTableInfo :: ClassName
 bsTableInfo = ClassName "table-info"
 
-bsTableInverse :: ClassName
-bsTableInverse = ClassName "table-inverse"
-
 bsTableLight :: ClassName
 bsTableLight = ClassName "table-light"
 
@@ -3312,6 +3531,18 @@ bsTablePrimary = ClassName "table-primary"
 
 bsTableResponsive :: ClassName
 bsTableResponsive = ClassName "table-responsive"
+
+bsTableResponsiveLg :: ClassName
+bsTableResponsiveLg = ClassName "table-responsive-lg"
+
+bsTableResponsiveMd :: ClassName
+bsTableResponsiveMd = ClassName "table-responsive-md"
+
+bsTableResponsiveSm :: ClassName
+bsTableResponsiveSm = ClassName "table-responsive-sm"
+
+bsTableResponsiveXl :: ClassName
+bsTableResponsiveXl = ClassName "table-responsive-xl"
 
 bsTableSecondary :: ClassName
 bsTableSecondary = ClassName "table-secondary"
@@ -3424,17 +3655,23 @@ bsTextXlLeft = ClassName "text-xl-left"
 bsTextXlRight :: ClassName
 bsTextXlRight = ClassName "text-xl-right"
 
-bsTheadDefault :: ClassName
-bsTheadDefault = ClassName "thead-default"
+bsTheadDark :: ClassName
+bsTheadDark = ClassName "thead-dark"
 
-bsTheadInverse :: ClassName
-bsTheadInverse = ClassName "thead-inverse"
+bsTheadLight :: ClassName
+bsTheadLight = ClassName "thead-light"
 
 bsTooltip :: ClassName
 bsTooltip = ClassName "tooltip"
 
 bsTooltipInner :: ClassName
 bsTooltipInner = ClassName "tooltip-inner"
+
+bsValidFeedback :: ClassName
+bsValidFeedback = ClassName "valid-feedback"
+
+bsValidTooltip :: ClassName
+bsValidTooltip = ClassName "valid-tooltip"
 
 bsVisible :: ClassName
 bsVisible = ClassName "visible"

@@ -260,7 +260,7 @@ main = do
     ouf   = args!!4
     icons = "Icons"
     themes = "Themes"
-  if any (\arg -> head arg == '-') args
+  if any (\arg -> length arg > 0 && head arg == '-') args
      then T.putStr help
      else
         case length args of

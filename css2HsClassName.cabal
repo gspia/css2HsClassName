@@ -5,7 +5,7 @@ name:                css2HsClassName
 -- PVP summary:      +-+------- breaking API changes
 --                   | | +----- non-breaking API additions
 --                   | | | +--- code changes with no API change
-version:             0.1.0.0
+version:             0.1.0.1
 synopsis:            Utilities to generate css and html tags to reflex
 description:         Utilities to generate css and html tags to reflex. 
                      This provides semi-automatic results that are

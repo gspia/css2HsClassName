@@ -178,14 +178,44 @@ w3Border = ClassName "w3-border"
 w3Border0 :: ClassName
 w3Border0 = ClassName "w3-border-0"
 
+w3BorderAmber :: ClassName
+w3BorderAmber = ClassName "w3-border-amber"
+
+w3BorderAqua :: ClassName
+w3BorderAqua = ClassName "w3-border-aqua"
+
 w3BorderBlack :: ClassName
 w3BorderBlack = ClassName "w3-border-black"
 
 w3BorderBlue :: ClassName
 w3BorderBlue = ClassName "w3-border-blue"
 
+w3BorderBlueGray :: ClassName
+w3BorderBlueGray = ClassName "w3-border-blue-gray"
+
+w3BorderBlueGrey :: ClassName
+w3BorderBlueGrey = ClassName "w3-border-blue-grey"
+
 w3BorderBottom :: ClassName
 w3BorderBottom = ClassName "w3-border-bottom"
+
+w3BorderBrown :: ClassName
+w3BorderBrown = ClassName "w3-border-brown"
+
+w3BorderCyan :: ClassName
+w3BorderCyan = ClassName "w3-border-cyan"
+
+w3BorderDarkGray :: ClassName
+w3BorderDarkGray = ClassName "w3-border-dark-gray"
+
+w3BorderDarkGrey :: ClassName
+w3BorderDarkGrey = ClassName "w3-border-dark-grey"
+
+w3BorderDeepOrange :: ClassName
+w3BorderDeepOrange = ClassName "w3-border-deep-orange"
+
+w3BorderDeepPurple :: ClassName
+w3BorderDeepPurple = ClassName "w3-border-deep-purple"
 
 w3BorderGray :: ClassName
 w3BorderGray = ClassName "w3-border-gray"
@@ -196,14 +226,62 @@ w3BorderGreen = ClassName "w3-border-green"
 w3BorderGrey :: ClassName
 w3BorderGrey = ClassName "w3-border-grey"
 
+w3BorderIndigo :: ClassName
+w3BorderIndigo = ClassName "w3-border-indigo"
+
+w3BorderKhaki :: ClassName
+w3BorderKhaki = ClassName "w3-border-khaki"
+
 w3BorderLeft :: ClassName
 w3BorderLeft = ClassName "w3-border-left"
+
+w3BorderLightBlue :: ClassName
+w3BorderLightBlue = ClassName "w3-border-light-blue"
+
+w3BorderLightGray :: ClassName
+w3BorderLightGray = ClassName "w3-border-light-gray"
+
+w3BorderLightGreen :: ClassName
+w3BorderLightGreen = ClassName "w3-border-light-green"
+
+w3BorderLightGrey :: ClassName
+w3BorderLightGrey = ClassName "w3-border-light-grey"
+
+w3BorderLime :: ClassName
+w3BorderLime = ClassName "w3-border-lime"
+
+w3BorderOrange :: ClassName
+w3BorderOrange = ClassName "w3-border-orange"
+
+w3BorderPaleBlue :: ClassName
+w3BorderPaleBlue = ClassName "w3-border-pale-blue"
+
+w3BorderPaleGreen :: ClassName
+w3BorderPaleGreen = ClassName "w3-border-pale-green"
+
+w3BorderPaleRed :: ClassName
+w3BorderPaleRed = ClassName "w3-border-pale-red"
+
+w3BorderPaleYellow :: ClassName
+w3BorderPaleYellow = ClassName "w3-border-pale-yellow"
+
+w3BorderPink :: ClassName
+w3BorderPink = ClassName "w3-border-pink"
+
+w3BorderPurple :: ClassName
+w3BorderPurple = ClassName "w3-border-purple"
 
 w3BorderRed :: ClassName
 w3BorderRed = ClassName "w3-border-red"
 
 w3BorderRight :: ClassName
 w3BorderRight = ClassName "w3-border-right"
+
+w3BorderSand :: ClassName
+w3BorderSand = ClassName "w3-border-sand"
+
+w3BorderTeal :: ClassName
+w3BorderTeal = ClassName "w3-border-teal"
 
 w3BorderTop :: ClassName
 w3BorderTop = ClassName "w3-border-top"
@@ -412,11 +490,41 @@ w3HoverBlueGray = ClassName "w3-hover-blue-gray"
 w3HoverBlueGrey :: ClassName
 w3HoverBlueGrey = ClassName "w3-hover-blue-grey"
 
+w3HoverBorderAmber :: ClassName
+w3HoverBorderAmber = ClassName "w3-hover-border-amber"
+
+w3HoverBorderAqua :: ClassName
+w3HoverBorderAqua = ClassName "w3-hover-border-aqua"
+
 w3HoverBorderBlack :: ClassName
 w3HoverBorderBlack = ClassName "w3-hover-border-black"
 
 w3HoverBorderBlue :: ClassName
 w3HoverBorderBlue = ClassName "w3-hover-border-blue"
+
+w3HoverBorderBlueGray :: ClassName
+w3HoverBorderBlueGray = ClassName "w3-hover-border-blue-gray"
+
+w3HoverBorderBlueGrey :: ClassName
+w3HoverBorderBlueGrey = ClassName "w3-hover-border-blue-grey"
+
+w3HoverBorderBrown :: ClassName
+w3HoverBorderBrown = ClassName "w3-hover-border-brown"
+
+w3HoverBorderCyan :: ClassName
+w3HoverBorderCyan = ClassName "w3-hover-border-cyan"
+
+w3HoverBorderDarkGray :: ClassName
+w3HoverBorderDarkGray = ClassName "w3-hover-border-dark-gray"
+
+w3HoverBorderDarkGrey :: ClassName
+w3HoverBorderDarkGrey = ClassName "w3-hover-border-dark-grey"
+
+w3HoverBorderDeepOrange :: ClassName
+w3HoverBorderDeepOrange = ClassName "w3-hover-border-deep-orange"
+
+w3HoverBorderDeepPurple :: ClassName
+w3HoverBorderDeepPurple = ClassName "w3-hover-border-deep-purple"
 
 w3HoverBorderGray :: ClassName
 w3HoverBorderGray = ClassName "w3-hover-border-gray"
@@ -427,8 +535,56 @@ w3HoverBorderGreen = ClassName "w3-hover-border-green"
 w3HoverBorderGrey :: ClassName
 w3HoverBorderGrey = ClassName "w3-hover-border-grey"
 
+w3HoverBorderIndigo :: ClassName
+w3HoverBorderIndigo = ClassName "w3-hover-border-indigo"
+
+w3HoverBorderKhaki :: ClassName
+w3HoverBorderKhaki = ClassName "w3-hover-border-khaki"
+
+w3HoverBorderLightBlue :: ClassName
+w3HoverBorderLightBlue = ClassName "w3-hover-border-light-blue"
+
+w3HoverBorderLightGray :: ClassName
+w3HoverBorderLightGray = ClassName "w3-hover-border-light-gray"
+
+w3HoverBorderLightGreen :: ClassName
+w3HoverBorderLightGreen = ClassName "w3-hover-border-light-green"
+
+w3HoverBorderLightGrey :: ClassName
+w3HoverBorderLightGrey = ClassName "w3-hover-border-light-grey"
+
+w3HoverBorderLime :: ClassName
+w3HoverBorderLime = ClassName "w3-hover-border-lime"
+
+w3HoverBorderOrange :: ClassName
+w3HoverBorderOrange = ClassName "w3-hover-border-orange"
+
+w3HoverBorderPaleBlue :: ClassName
+w3HoverBorderPaleBlue = ClassName "w3-hover-border-pale-blue"
+
+w3HoverBorderPaleGreen :: ClassName
+w3HoverBorderPaleGreen = ClassName "w3-hover-border-pale-green"
+
+w3HoverBorderPaleRed :: ClassName
+w3HoverBorderPaleRed = ClassName "w3-hover-border-pale-red"
+
+w3HoverBorderPaleYellow :: ClassName
+w3HoverBorderPaleYellow = ClassName "w3-hover-border-pale-yellow"
+
+w3HoverBorderPink :: ClassName
+w3HoverBorderPink = ClassName "w3-hover-border-pink"
+
+w3HoverBorderPurple :: ClassName
+w3HoverBorderPurple = ClassName "w3-hover-border-purple"
+
 w3HoverBorderRed :: ClassName
 w3HoverBorderRed = ClassName "w3-hover-border-red"
+
+w3HoverBorderSand :: ClassName
+w3HoverBorderSand = ClassName "w3-hover-border-sand"
+
+w3HoverBorderTeal :: ClassName
+w3HoverBorderTeal = ClassName "w3-hover-border-teal"
 
 w3HoverBorderWhite :: ClassName
 w3HoverBorderWhite = ClassName "w3-hover-border-white"
@@ -535,17 +691,41 @@ w3HoverShadow = ClassName "w3-hover-shadow"
 w3HoverTeal :: ClassName
 w3HoverTeal = ClassName "w3-hover-teal"
 
+w3HoverTextAmber :: ClassName
+w3HoverTextAmber = ClassName "w3-hover-text-amber"
+
+w3HoverTextAqua :: ClassName
+w3HoverTextAqua = ClassName "w3-hover-text-aqua"
+
 w3HoverTextBlack :: ClassName
 w3HoverTextBlack = ClassName "w3-hover-text-black"
 
 w3HoverTextBlue :: ClassName
 w3HoverTextBlue = ClassName "w3-hover-text-blue"
 
+w3HoverTextBlueGray :: ClassName
+w3HoverTextBlueGray = ClassName "w3-hover-text-blue-gray"
+
+w3HoverTextBlueGrey :: ClassName
+w3HoverTextBlueGrey = ClassName "w3-hover-text-blue-grey"
+
+w3HoverTextBrown :: ClassName
+w3HoverTextBrown = ClassName "w3-hover-text-brown"
+
+w3HoverTextCyan :: ClassName
+w3HoverTextCyan = ClassName "w3-hover-text-cyan"
+
 w3HoverTextDarkGray :: ClassName
 w3HoverTextDarkGray = ClassName "w3-hover-text-dark-gray"
 
 w3HoverTextDarkGrey :: ClassName
 w3HoverTextDarkGrey = ClassName "w3-hover-text-dark-grey"
+
+w3HoverTextDeepOrange :: ClassName
+w3HoverTextDeepOrange = ClassName "w3-hover-text-deep-orange"
+
+w3HoverTextDeepPurple :: ClassName
+w3HoverTextDeepPurple = ClassName "w3-hover-text-deep-purple"
 
 w3HoverTextGray :: ClassName
 w3HoverTextGray = ClassName "w3-hover-text-gray"
@@ -556,14 +736,44 @@ w3HoverTextGreen = ClassName "w3-hover-text-green"
 w3HoverTextGrey :: ClassName
 w3HoverTextGrey = ClassName "w3-hover-text-grey"
 
+w3HoverTextIndigo :: ClassName
+w3HoverTextIndigo = ClassName "w3-hover-text-indigo"
+
+w3HoverTextKhaki :: ClassName
+w3HoverTextKhaki = ClassName "w3-hover-text-khaki"
+
+w3HoverTextLightBlue :: ClassName
+w3HoverTextLightBlue = ClassName "w3-hover-text-light-blue"
+
 w3HoverTextLightGray :: ClassName
 w3HoverTextLightGray = ClassName "w3-hover-text-light-gray"
+
+w3HoverTextLightGreen :: ClassName
+w3HoverTextLightGreen = ClassName "w3-hover-text-light-green"
 
 w3HoverTextLightGrey :: ClassName
 w3HoverTextLightGrey = ClassName "w3-hover-text-light-grey"
 
+w3HoverTextLime :: ClassName
+w3HoverTextLime = ClassName "w3-hover-text-lime"
+
+w3HoverTextOrange :: ClassName
+w3HoverTextOrange = ClassName "w3-hover-text-orange"
+
+w3HoverTextPink :: ClassName
+w3HoverTextPink = ClassName "w3-hover-text-pink"
+
+w3HoverTextPurple :: ClassName
+w3HoverTextPurple = ClassName "w3-hover-text-purple"
+
 w3HoverTextRed :: ClassName
 w3HoverTextRed = ClassName "w3-hover-text-red"
+
+w3HoverTextSand :: ClassName
+w3HoverTextSand = ClassName "w3-hover-text-sand"
+
+w3HoverTextTeal :: ClassName
+w3HoverTextTeal = ClassName "w3-hover-text-teal"
 
 w3HoverTextWhite :: ClassName
 w3HoverTextWhite = ClassName "w3-hover-text-white"

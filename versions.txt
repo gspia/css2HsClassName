@@ -1,0 +1,30 @@
+
+## CSS-sources
+
+### Themes
+
+Checked 2017 Nov 28th.
+
+* [boostrap](http://getbootstrap.com/). Version 4.0.0-beta2.
+* [semantic](https://semantic-ui.com/). Version 2.2.13.
+* [foundation](http://foundation.zurb.com/). Version 6.4.2.
+* [w3css](https://www.w3schools.com/w3css/default.asp). Version 4.06.
+
+### Icons
+
+Checked 2017 Nov 28th.
+
+* [fontawesome](http://fontawesome.io/icons/). Version 4.7.0.
+* [elusive icons](http://elusiveicons.com/). Version 2.0.0.
+* [foundation icons](http://zurb.com/playground/foundation-icons). Version 3.0.
+* [icomoon](https://icomoon.io/). Version ??. Obtained on Sep 2017.
+* [ionicons](http://ionicons.com/). Version 2.0.1.
+* [mfglabs](https://mfglabs.github.io/mfglabs-iconset/). Version 1.0.
+* [modern ui icons](http://modernuiicons.com/)   
+  or (is it same?)  [material design icons](https://materialdesignicons.com/).
+  Version 2.0.46.
+* [open iconic](https://useiconic.com/open). Version 1.1.1.
+* [typicons](http://www.typicons.com/). Version 2.0.7.
+* [flags](https://github.com/lipis/flag-icon-css). Version ??. Obtained on Sep 2017.
+
+

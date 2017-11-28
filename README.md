@@ -34,7 +34,7 @@ git clone ..
 cd css2HsClassName
 nix-build
 ```
-and then the result/bin -dir is made up and mkSeveral.sh can find the 
+and then the result/bin -dir is made up and `mkSeveral.sh` can find the 
 program. (Some of its outputs can be found at res-directory.)
 
 You can also 
@@ -91,7 +91,8 @@ cabal update; cabal install css-syntax; cabal configure; cabal build
 ## CSS-sources
 
 This has been tested with the following themes and icon-sets. Most of them have 
-cdn somewhere.
+cdn somewhere. The source version are kept in 
+[versions.txt](https://github.com/gspia/css2HsClassName/blob/master/versions.txt).
 
 ### Themes
 
