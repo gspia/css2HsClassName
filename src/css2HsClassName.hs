@@ -30,8 +30,8 @@ import           System.IO (stdin, stdout)
 -- Functions writehs, mkhsClass as well as the icon-producing
 -- function at the end of this file have the rest of the constants...
 themeDir, iconDir, modulePrefix :: T.Text
-themeDir     = "Themes"
-iconDir      = "Icons"
+themeDir     = "Theme"
+iconDir      = "Icon"
 modulePrefix = "Reflex.Dom."
 
 cssInputDir, resultDir :: FilePath
@@ -81,18 +81,37 @@ txt2toks txt =
 -- Produce a haskell-module contents.
 --------------------------------------------------------------------------------
 
+-- make a constant together with the haddock line.
 mkhsClass :: (T.Text, T.Text) -> T.Text
-mkhsClass (clName, css) = T.concat [clName, cNt, clName, cNv, css, nls]
+mkhsClass (clName, css) = T.concat [hdc, clName, cNt, clName, cNv, css, nls]
   where
+    hdc = "-- | A ClassName for " <> css <> "\n"
     cNt = " :: ClassName\n"
     cNv = " = ClassName \""
     nls = "\"\n\n"
 
+-- Make module header.
 mkHsModule :: T.Text -> T.Text -> T.Text -> T.Text
 mkHsModule subd mname t = h <> t
   where
     h = T.concat
-      [ "{-# LANGUAGE OverloadedStrings #-}\n"
+      [ "{-# LANGUAGE OverloadedStrings #-}\n\n"
+      , "{- |\n"
+      , "Module      : ", modulePrefix, subd, ".Raw.", mname, "\n"
+      , "Description : Auto-generated file to give hs-constants for css-file.\n"
+      , "Copyright   : (c) gspia 2017- \n"
+      , "Licence     : BSD3\n"
+      , "Maintainer  : gspia\n\n"
+      , "= ", mname, "\n\n"
+      , "This file contains hs-constants for a css-file. The generated file is included\n"
+      , "in the reflex-dom-themes -package, see https://github.com/gspia/reflex-dom-themes\n"
+      , "and the examples in there.\n\n"
+      , "To use the results with reflex-dom-themes, the app should include the chosen\n"
+      , "css-files (or links to them). Some of the css-files can be found from various CDNs\n"
+      , "together with the fonts. If not, then you should get the fonts and put them into\n"
+      , "correct sub-directory.\n\n"
+      , "This file was generated with https://github.com/gspia/css2HsClassName\n\n"
+      , "-}\n\n"
       -- , "module Reflex.Dom.Themes.Raw."
       -- , "module Reflex.Dom.Icons.Raw."
       , "module ", modulePrefix, subd, ".Raw.", mname
@@ -138,7 +157,7 @@ resWords w =
      else w
 
 -- Args:
---   subd  - subdirectory in the module name path (e.g. Themes or Icons)
+--   subd  - subdirectory in the module name path (e.g. Theme or Icon)
 --   modNm - module name in module name path (coming after "Raw")
 --   pref  - prefix to be recognized in each Token
 --           or to be added to each ClassName.
@@ -154,7 +173,7 @@ mkHsFromCss subd mname pref tokens fun =
 
 
 -- Args:
---   subd  - subdirectory in the module name path (e.g. Themes or Icons)
+--   subd  - subdirectory in the module name path (e.g. Theme or Icon)
 --   modNm - module name in module name path (coming after "Raw")
 --   pref  - prefix to be added to each ClassName-function.
 --   inf   - input file
@@ -204,7 +223,7 @@ css2tt pref = fmap (\w -> (fn w, w)) . tok2txt
 
 -- This is a ghci helper (see below), not needed in executable.
 -- Args:
---   subd  - subdirectory in the module name path (e.g. Themes or Icons)
+--   subd  - subdirectory in the module name path (e.g. Theme or Icon)
 --   modNm - module name in module name path (coming after "Raw")
 --   pref  - prefix to be added to each ClassName-function.
 --   inf   - input file
@@ -236,7 +255,7 @@ prefixedCss pref = fmap (\w -> (fn w, w)) . getPrefixTokens pref
 
 -- This is a ghci helper (see below), not needed in executable.
 -- Args:
---   subd  - subdirectory in the module name path (e.g. Themes or Icons)
+--   subd  - subdirectory in the module name path (e.g. Theme or Icon)
 --   modNm - module name in module name path (coming after "Raw")
 --   pref  - prefix to be recognized in each Token
 --   inf   - input file
@@ -258,8 +277,8 @@ main = do
     iort  = T.pack $ args!!2
     inf   = args!!3
     ouf   = args!!4
-    icons = "Icons"
-    themes = "Themes"
+    icons = iconDir
+    themes = themeDir
   if any (\arg -> length arg > 0 && head arg == '-') args
      then T.putStr help
      else

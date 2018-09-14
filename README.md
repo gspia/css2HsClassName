@@ -30,7 +30,7 @@ are in comments at the end of the source file.)
 ## How to build?
 
 ```
-git clone ..
+git clone https://github.com/gspia/css2HsClassName.git
 cd css2HsClassName
 nix-build
 ```
